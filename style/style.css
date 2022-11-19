@@ -40,3 +40,30 @@ main {
     width: 267px;
     height: 472px;
 }
+
+#redes-sociais img {
+    margin: 10px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.377);
+}
+
+#redes-sociais a {
+    text-decoration: none;
+}
+
+#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.658);
+    transform: translate(-3px, -6px);
+    transition: all .3s ease-in-out;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.527);
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 10px;
+}
